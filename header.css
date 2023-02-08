@@ -1,8 +1,24 @@
 header{
+
     display:inline-flex;
+    padding: 12px;
+    background-color: var(--color4);
+    width: 100%;
 }
 
-#nav-bar{
-    
+nav > img {
+    margin-right: 12px;
 }
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav > a:hover{
+    color: var(--color1);
+}
+
 
