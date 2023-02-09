@@ -7,10 +7,14 @@ section{
 
 
 .section-1 > img{
-    height:calc(100vh - 62px);
+    height: 100vh;
     width: 100vw;
 }
 
 .padding-content{
     padding: 0 32px;
+}
+
+#conteudo{
+    background-color: white;
 }
