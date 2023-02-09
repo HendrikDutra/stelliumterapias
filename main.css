@@ -1,10 +1,8 @@
-
 section{
     height: 100vh;
     width: 100vw;
     padding-top: 62px;
 }
-
 
 .section-1 > img{
     height: 100vh;
@@ -13,8 +11,91 @@ section{
 
 .padding-content{
     padding: 0 32px;
+    justify-content: space-between
 }
 
 #conteudo{
+    background-color: rgb(238, 236, 236);
+}
+
+.paper{
     background-color: white;
+    padding: 16px;
+    box-shadow: 2px 2px 10px rgba(124, 124, 124, 0.404);
+}
+
+.card-price{
+    margin-top: 32px;
+    
+}
+
+.col-3{
+    width: calc(95vw/3);
+    position: relative;
+
+}
+
+.m-16{
+    margin: 16px;
+}
+
+.card-price .paper{
+    min-height: 300px;
+    border-radius: 25px;
+    text-align: center;
+}
+.button{
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff;
+    background-color: #1976d2;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.align-center{
+    margin: 0;
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    transform: translateY(-50%);
 }
