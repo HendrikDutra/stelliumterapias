@@ -1,9 +1,9 @@
 header{
 
     display:inline-flex;
-    padding: 12px;
+    padding: 12px 32px;
     background-color: var(--color4);
-    width: 100%;
+    width: calc(100vw - 32px);
     max-height: 50px;
     position: fixed;
 }
@@ -18,7 +18,7 @@ header{
     height: 25px;
     float: right;
     padding: 10px;
-    margin-left: 5px;
+    margin-right: 16px;
     
 }
 nav{

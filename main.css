@@ -10,3 +10,7 @@ section{
     height:calc(100vh - 62px);
     width: 100vw;
 }
+
+.padding-content{
+    padding: 0 32px;
+}

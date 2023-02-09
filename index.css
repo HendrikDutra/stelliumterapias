@@ -19,6 +19,7 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Rufina', serif;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 body > img{
