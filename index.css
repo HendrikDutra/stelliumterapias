@@ -26,3 +26,18 @@ body > img{
     display:inline-flex;
 }
 
+.display-flex{
+    display: inline-flex;
+}
+
+.shadow-box{
+    box-shadow: 2px 2px 10px rgba(124, 124, 124, 0.404);
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 1psx rgba(124, 124, 124, 0.404);
+}
+
+.display-block{
+    display: block;
+}
